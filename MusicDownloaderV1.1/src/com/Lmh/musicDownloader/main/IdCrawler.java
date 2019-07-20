@@ -33,7 +33,7 @@ public class IdCrawler {
 		// httpGet.addHeader("Referer", "http://music.163.com/");
 		httpGet.addHeader("User-Agent",
 				"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36");
-		httpGet.addHeader("Cookie",cookie);
+//		httpGet.addHeader("Cookie",cookie);
 		try {
 			response = httpclient.execute(httpGet);
 
